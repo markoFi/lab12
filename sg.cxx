@@ -19,12 +19,20 @@ void writeToFile(cmplx* const v, const string s, const double dx,
 //-----------------------------------
 int main(){
 
+<<<<<<< HEAD
 	const int Nx = 500;
+=======
+	const int Nx = 300;
+>>>>>>> a7c8281b18642239b439c691d780f98d5853b00c
 	const double xmin = -40;
   const double xmax = 40;
 	const double Tend = 10*M_PI;
 	const double dx = (xmax-xmin) / (Nx - 1);
+<<<<<<< HEAD
 	const double dt = dx / 50  ;
+=======
+	const double dt = dx / 100  ;
+>>>>>>> a7c8281b18642239b439c691d780f98d5853b00c
   double t = 0;
 	const int Na = 10;
 	int Nk = int(Tend / Na / dt + 0.5);
